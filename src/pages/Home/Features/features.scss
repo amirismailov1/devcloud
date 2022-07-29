@@ -1,0 +1,92 @@
+.features{
+  padding: 100px 0;
+
+  &__list{
+    display: flex;
+    margin-bottom: 103px;
+    &-item{
+@include text(400,16px,22px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px 75px;
+      border-right: 3px solid #29A28C;
+      &:last-child{
+        border: none;
+      }
+      &>span{
+        @include text(600,48px,65px)
+      }
+    }
+  }
+  &__block{
+    display: flex;
+    column-gap: 105px;
+
+    &-img{
+      width: 100%;
+    }
+  }
+  &__col{
+    display: flex;
+    flex-direction: column;
+
+   text-align: center;
+    align-items: center;
+    justify-content: space-between;
+&-block{
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-items: center;
+  row-gap: 35px;
+}
+    &-title{
+
+      @include title();
+
+      margin-top: 56px;
+      position: relative;
+      left: 0;
+      top: 0;
+
+      &::before{
+        content: url("../../../components/Assets/images/Home/features/quoteOpen.png");
+        position: absolute;
+        left: -65px;
+        bottom: -30px;
+      }
+      &::after{
+
+        content: url("../../../components/Assets/images/Home/features/quoteClose.png");
+        position: absolute;
+        right: -65px;
+        top: -20px;
+      }
+    }
+    &-subtitle{
+      @include text(400,23px,31px);
+
+    }
+    &-btn{
+      @include text(400,16px,22px);
+      color: white;
+      width: 270px;
+      padding: 10px 0;
+      background: #000000;
+      box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+      border-radius: 32px;
+      cursor: pointer;
+      &:hover{
+        color: black;background-color: white;
+      }
+
+    }
+    &-info{
+      @include text(300,14px,19px);
+      letter-spacing: -0.015em;
+
+    }
+  }
+}

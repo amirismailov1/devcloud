@@ -1,0 +1,14 @@
+.services{
+  &__title{
+    @include title();
+    text-align: center;
+    margin-bottom: 143px;
+  }
+  &__row{
+    display: flex;
+    justify-content: center;
+    column-gap: 92px;
+  }
+
+
+}

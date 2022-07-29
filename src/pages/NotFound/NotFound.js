@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Portfolio = () => {
+const NotFound = () => {
     return (
         <div>
-            
+            NotFound
         </div>
     );
 };
 
-export default Portfolio;
+export default NotFound;

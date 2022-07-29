@@ -1,0 +1,38 @@
+
+.firstSection{
+  background: url("../../../components/Assets/images/Home/firstSection/bg.png")  ;
+  height: 768px;
+  padding: 325px 0 145px;
+
+
+&__col{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+  &__title{
+    @include text(300,47px,64px);
+    color: white;
+    letter-spacing: 0.08em;
+   text-transform: uppercase;
+    text-align: center;
+
+  }
+  &__btn{
+    @include text(400,16px,22px);
+    color: white;
+    border: none;
+    margin: 52px 0 56px;
+    cursor: pointer;
+    padding: 12px 40px;
+    background: rgba(0, 153, 125, 0.79);
+    border-radius: 43px;
+    &:hover{
+      color:rgba(0, 153, 125, 0.79) ;
+      background-color: transparent;
+    }
+  }
+}

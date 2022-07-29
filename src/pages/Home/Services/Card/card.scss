@@ -1,0 +1,52 @@
+.card {
+  box-shadow: 0 3px 11px rgba(3, 74, 62, 0.56);
+  border-radius: 27px;
+  width: 340px;
+  height: 550px;
+  padding: 108px 50px 70px;
+
+
+  &__title {
+    @include text(400, 20px, 28px);
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    height: 60px;
+
+  }
+
+  &__text {
+    @include text(300, 14px, 21px);
+    letter-spacing: -0.015em;
+    height: 190px;
+    margin: 50px 0 34px;
+  }
+
+
+  &__block {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    cursor: pointer;
+   &:hover{
+
+     p {color: #29A28C;}
+     svg{
+       path{
+         fill: #29A28C;
+         stroke: #29A28C;
+       }
+
+     }
+   }
+
+  }
+
+
+  &__more {
+    @include text(300, 15px, 22px);
+    letter-spacing: 0.05em;
+
+  }
+
+
+}
