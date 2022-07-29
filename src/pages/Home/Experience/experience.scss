@@ -1,0 +1,28 @@
+.experience{
+  padding-bottom: 100px;
+  position: relative;
+  left: 0;
+  top: 0;
+  &::before{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    content: url("../../../components/Assets/images/Home/Projects/Vector 31.svg");
+    cursor: pointer;
+  }
+  &::after{
+    content: url("../../../components/Assets/images/Home/Projects/Vector 32.svg");
+    position: absolute;
+    top: 30%;
+    right: 0;
+    cursor: pointer;
+  }
+  &__title{
+    @include title();
+    text-align: center;
+  }
+  &__row{
+    display: flex;
+    column-gap: 30px;
+  }
+}

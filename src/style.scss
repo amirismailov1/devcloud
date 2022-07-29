@@ -28,6 +28,7 @@ font-weight: $fw;
   font-size: 40px;
   line-height: 54px;
   letter-spacing: 0.045em;
+  margin-bottom: 80px;
 
 }
 
@@ -37,3 +38,6 @@ font-weight: $fw;
 @import "./pages/Home/Services/services";
 @import "./pages/Home/Services/Card/card";
 @import "./pages/Home/Projects/projects";
+@import "./pages/Home/Process/process";
+@import "./pages/Home/Experience/experience";
+@import "pages/Home/Experience/ExpCard/expCard";

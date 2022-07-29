@@ -1,0 +1,65 @@
+.process{
+  padding-bottom: 100px;
+  &__title{
+    @include title();
+    text-align: center;
+  }
+  &__row{
+    display: flex;
+    column-gap: 30px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+
+    &-item {
+      @include text(400, 18px, 27px);
+      border: 1px solid #000000;
+      padding: 14px 40px;
+      cursor: pointer;
+
+      &:hover {
+        color: #29A28C;
+        border-color: #29A28C;
+      }
+
+    }
+  }
+    &__img{
+      width: 100%;
+    }
+    &__content{
+      display: flex;
+      flex-direction: column;
+      row-gap: 110px;
+      &-title{
+        @include text(400,36px,49px);
+        text-transform: uppercase;
+        letter-spacing: 0.045em;
+      }
+      &-block{
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        cursor: pointer;
+        &:hover{
+
+          p {color: #29A28C;}
+          svg{
+            path{
+              fill: #29A28C;
+              stroke: #29A28C;
+            }
+
+          }
+        }
+
+      }
+      &__more{
+        @include text(300, 15px, 22px);
+        letter-spacing: 0.05em;
+      }
+    }
+
+}
