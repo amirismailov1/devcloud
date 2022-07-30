@@ -1,0 +1,36 @@
+.about{
+  padding: 180px 0 100px;
+  &__block{
+    display: flex;
+    column-gap: 88px;
+
+  }
+  &__col{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    &-title{
+      @include title();
+
+    }
+    &-text{
+      @include text(400,20px,23px)
+    }
+    &-btn{
+      @include text(400,16px,22px);
+      width: 267px;
+      padding: 10px 65px;
+      box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+      border-radius: 32px;
+      background: #000000;
+      letter-spacing: -0.015em;
+cursor: pointer;
+      color: #FFFFFF;
+      &:hover{
+        color: black;
+        background: white;
+      }
+
+    }
+  }
+}

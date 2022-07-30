@@ -1,3 +1,28 @@
 .contacts{
-  padding: 95px 140px;
+  padding: 175px 140px;
+  display: flex;
+  column-gap: 155px;
+  align-items: center;
+  &__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    &-item{
+      display: flex;
+      column-gap: 20px;
+align-items: center;
+      @include text(300,17px,31px);
+      letter-spacing: 0.065em;
+      text-transform: uppercase;
+      &:hover{
+        color: #29A28C;
+        cursor: pointer;
+      }
+
+    }
+    &-itemBlock{
+      display: flex;
+      column-gap: 25px;
+    }
+  }
 }
