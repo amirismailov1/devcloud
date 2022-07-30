@@ -1,0 +1,12 @@
+.portfolio{
+  padding: 100px 0;
+  &__row{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  &__title{
+    @include title();
+    margin-bottom: 80px;text-align: center;
+  }
+}

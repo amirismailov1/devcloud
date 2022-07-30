@@ -1,0 +1,66 @@
+.footer{
+
+  position: relative;
+  bottom: 0;
+  left: 0;
+  &__row{
+    display: flex;
+    column-gap: 175px;
+    padding-top: 70px;
+  }
+  &__block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: flex-end;
+  }
+  &__logo{
+    @include text(700,20px,27px);
+    display: flex;
+    align-items: center;
+  }
+  &__text{
+    @include text(300,17px,31px);
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    &:hover{
+      color: #29A28C;
+      cursor: pointer;
+    }
+
+  }
+  &__nav{
+    display: flex;
+    column-gap: 130px;
+    align-items: center;
+  }
+  &__col{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    &-block{
+      display: flex;
+      column-gap: 12px;
+      align-items: center;
+
+      &:hover{
+        & svg{
+          fill: #29A28C;
+        }
+      }
+
+    }
+    &-row{
+      display: flex;
+      column-gap: 24px;
+    }
+
+  }
+  &__arrow{
+    position: absolute;
+    right: 75px;
+    bottom: 75px;
+    font-size: 55px;
+    cursor: pointer;
+  }
+}

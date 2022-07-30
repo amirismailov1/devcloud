@@ -1,9 +1,13 @@
 import React from 'react';
+import Img from '../../../../components/Assets/images/Home/Services/icons8-laptop-and-phone-64 1.png'
 
 
 const Card = ({title,text}) => {
     return (
         <div className='card'>
+            <div className="card__triangle">
+                <img src={Img} alt="ICON" className="card__triangle-img"/>
+            </div>
             <h3 className="card__title">{title}</h3>
             <p className='card__text'>{text}</p>
             <div className="card__block">

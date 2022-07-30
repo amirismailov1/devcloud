@@ -29,6 +29,7 @@
      color: white;
 
 
+
    }
     &-item:nth-child(2){
       display: flex;
@@ -42,6 +43,9 @@
     }
     &-link{
       color: white;
+      &:hover{
+        color: #29A28C;
+      }
     }
   }
 }

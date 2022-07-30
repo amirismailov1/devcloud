@@ -1,0 +1,12 @@
+.tools{
+  padding-bottom: 100px;
+  &__title{
+    @include title();
+    text-align: center;
+  }
+  &__content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+}

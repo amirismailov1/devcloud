@@ -2,9 +2,12 @@ import React from 'react';
 
 const Contacts = () => {
     return (
-        <div>
+        <section className='contacts'>
+            <div className="container">
+                
+            </div>
             
-        </div>
+        </section>
     );
 };
 

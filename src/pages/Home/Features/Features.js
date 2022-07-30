@@ -27,7 +27,7 @@ const Features = () => {
         </li>
     </ul>
     <div className="features__block">
-        <img src={Img} alt="IMAGE" className="features__block-img"/>
+        <img src={Img} alt="IMG" className="features__block-img"/>
         <div className="features__col">
 <div className="features__col-block">
     <h2 className='features__col-title'>

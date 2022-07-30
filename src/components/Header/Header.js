@@ -9,7 +9,7 @@ const Header = () => {
             <div className="container">
                 <div className="header__row">
                     <h1 className='header__logo'>
-                        <img className='header__logo-img' src={Logo} alt="l"/>
+                        <img className='header__logo-img' src={Logo} alt="logo"/>
                         DEVCLOUD SOLUTIONS
                     </h1>
                     <nav className='header__nav'>

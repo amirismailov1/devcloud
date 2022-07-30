@@ -10,6 +10,7 @@
   color: black;
   font-style: normal;
   letter-spacing: 0.045em;
+  outline: none;
 
 }
 .container{
@@ -33,6 +34,7 @@ font-weight: $fw;
 }
 
 @import "./components/Header/header";
+@import "./components/Footer/footer";
 @import "./pages/Home/FirstSection/firstSection";
 @import "./pages/Home/Features/features";
 @import "./pages/Home/Services/services";
@@ -41,3 +43,11 @@ font-weight: $fw;
 @import "./pages/Home/Process/process";
 @import "./pages/Home/Experience/experience";
 @import "pages/Home/Experience/ExpCard/expCard";
+@import "./components/Footer/Reviews/reviews";
+@import "./pages/Home/Tools/tools";
+@import "./pages/Home/WorkWith/workWith";
+@import "./components/Footer/Reviews/Star/star";
+@import "./pages/Portfolio/portfolio";
+@import "./pages/Portfolio/PortfolioCard/portfolioCard";
+@import './pages/Contacts/contacts';
+@import "./pages/WorkProcess/WorkProcess";

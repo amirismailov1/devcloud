@@ -1,0 +1,130 @@
+.reviews{
+  display: flex;
+
+  &__block{
+    background: rgba(2, 123, 102, 0.1);
+    backdrop-filter: blur(8px);
+    padding: 75px 0 91px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__form{
+    position: relative;
+    left: 0;
+    top: 0;
+    background: linear-gradient(243.89deg, #25BA9F 2.05%, #1B7F6D 52.81%, #157161 75.54%, #09463B 101.06%);
+    width: 60%  ;
+    padding: 75px 60px;
+    &-title{
+@include text(300,36px,50px);
+      letter-spacing: 0.045em;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 32px;
+      color: white;
+    }
+    &-input{
+      @include text(400,18px,25px);
+      padding: 0 20px 10px;
+      border: none;
+      border-bottom:  1px solid #FFFFFF ;
+
+      letter-spacing: 0.025em;
+      width: 100%;
+      color: rgba(255, 255, 255, 0.46);
+      background: transparent;
+
+    }
+    &-buttons{
+
+      display: flex;
+      column-gap: 13px;
+      position: absolute;
+      right: 10%;
+
+      bottom: 16%;
+    }
+    &-label{
+      @include text(400,18px,25px);
+      letter-spacing: 0.025em;
+
+      color: rgba(255, 255, 255, 0.46);
+      position: absolute;
+      bottom: -40px;
+      left: 20px;
+    }
+    &-btn{
+      border: 1px solid #FFFFFF;
+      border-radius: 7px;
+      background-color: transparent;
+      padding: 8px;
+      cursor: pointer;
+    }
+    &-icon{
+
+
+      font-size: 40px;
+      path{
+        fill: transparent;
+        stroke: white;
+      }
+
+    }
+    &-iconTel{
+      fill: white;
+
+      font-size: 40px;
+    }
+    &-block{
+      display: flex;
+      column-gap: 60px;
+      margin: 35px 0 62px;
+    }
+    &-blockInput{
+      width: 50%;
+    }
+    &-textarea{
+      @include text(400,16px,22px);
+      color: rgba(255, 255, 255, 0.46);
+      width: 100%;
+      border: 1px solid #FFFFFF;
+      border-radius: 13px;
+      padding:  51px  17px 22px;
+      background-color: transparent;
+      height: 160px;
+      resize: none;
+    }
+  }
+  &__img{
+
+    margin-bottom: 15px;
+  }
+  &__name{
+    @include text(400,20px,37px);
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+  }
+  &__job{
+    @include text(300,18px,25px);
+    letter-spacing: 0.025em;
+
+  }
+  &__text{
+    @include text(300,16px,22px);
+    letter-spacing: 0.025em;
+text-align: center;
+    margin: 28px 0 53px;
+  }
+  &__stars{
+    display: flex;
+    column-gap: 10px;
+  }
+  &__date{
+    @include text(300,16px,22px);
+    letter-spacing: 0.025em;
+    margin-top: 10px;
+  }
+
+}

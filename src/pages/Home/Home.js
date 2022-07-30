@@ -5,6 +5,8 @@ import Services from "./Services/Services";
 import Projects from "./Projects/Projects";
 import Process from "./Process/Process";
 import Experience from "./Experience/Experience";
+import Tools from "./Tools/Tools";
+import WorkWith from "./WorkWith/WorkWith";
 
 const Home = () => {
     return (
@@ -14,7 +16,10 @@ const Home = () => {
             <Services/>
             <Projects/>
             <Process/>
+            <Tools/>
             <Experience/>
+            <WorkWith/>
+
         </div>
     );
 };
