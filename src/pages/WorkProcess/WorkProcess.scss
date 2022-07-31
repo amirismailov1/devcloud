@@ -73,3 +73,35 @@
 
 
 }
+@media (max-width: 1024px){
+  .workProcess{
+    row-gap: 50px;
+  }
+  .workProcess__row{
+    flex-direction: column-reverse;
+  }
+  .workProcess__list{
+    flex-direction: row;
+    column-gap: 32px;
+  }
+  .workProcess__block{
+    flex-direction: column;
+  }
+  .workProcess__block:nth-child(2n+2) {
+    flex-direction: column;
+  }
+  .workProcess__colList{
+    row-gap: 30px;
+  }
+  .workProcess__btn{
+    margin-top: 30px;
+  }
+}
+@media (max-width: 375px){
+  .workProcess__title{
+    font-size: 30px;
+  }
+  .workProcess__list{
+    column-gap: 20px;
+  }
+}

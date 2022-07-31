@@ -8,7 +8,20 @@
     display: flex;
     justify-content: center;
     column-gap: 92px;
+
   }
 
 
+}
+@media (max-width: 768px){
+  .services__row{
+    overflow-y: auto;
+    column-gap: 10px;
+  }
+}@media (max-width: 576px){
+  .services__row{
+    flex-wrap: wrap;
+    overflow-y: inherit;
+    row-gap: 30px;
+  }
 }

@@ -51,7 +51,7 @@ const Footer = () => {
                                 <li className='footer__list-item'><Link className='footer__text' to={'/portfolio'}>Портфолио</Link></li>
 
                             </ul>
-                                <ul>
+                                <ul className='footer__list'>
                                     <li className='footer__list-item'><Link className='footer__text' to={'/workProcess'}>Процессы</Link></li>
                                 <li className='footer__list-item'><Link className='footer__text'  to={'/about'}>О Компании</Link></li>
                                 <li className='footer__list-item'><Link className='footer__text' to={'/contacts'}>Контакты</Link></li>

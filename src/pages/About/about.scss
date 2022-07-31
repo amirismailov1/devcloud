@@ -34,3 +34,11 @@ cursor: pointer;
     }
   }
 }
+@media (max-width: 1024px){
+  .about__block{
+    flex-direction: column;
+  }
+  .about__col-title{
+    margin-bottom: 20px;
+  }
+}

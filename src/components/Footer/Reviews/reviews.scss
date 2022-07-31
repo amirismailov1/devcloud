@@ -128,3 +128,19 @@ text-align: center;
   }
 
 }
+@media (max-width: 769px){
+  .reviews{
+    flex-direction: column;
+    &__block{
+      width: 100%;
+    }
+    &__form{
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 577px){
+  .reviews__form-buttons{
+    display: none;
+  }
+}

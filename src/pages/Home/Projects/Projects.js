@@ -7,7 +7,7 @@ const Projects = () => {
            <div className="container">
                <div className="projects__column">
                    <h2 className="projects__title">Наши проекты</h2>
-                   <div className="projects__content"><img src={Img} alt="IMG" className="project__img"/>
+                   <div className="projects__content"><img src={Img} alt="IMG" className="projects__img"/>
                        <div className="projects__col">
                            <h3 className="projects__col-title">Компания по производству фотокниг Fototeca</h3>
                            <p className="projects__col-text">Программное решение, автоматизирующее производство изделий – от создания дизайна до выдачи клиенту. Была создана система, которая позволяет профессиональному фотографу – клиенту компании — формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать заказ в производство.</p>

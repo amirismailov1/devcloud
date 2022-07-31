@@ -4,7 +4,7 @@ import Emb from  '../../../components/Assets/images/Home/WorkWith/image 39.png'
 const Emblem = () => {
     return (
         <>
-            <img src={Emb} alt="Emblem" />
+            <img style={{width:'12%'}} src={Emb} alt="Emblem" />
         </>
     );
 };

@@ -10,3 +10,12 @@
     gap: 80px;
   }
 }
+@media (max-width: 577px){
+  .tools__content{
+    gap: 50px;
+  }
+}@media (max-width: 426px){
+  .tools__content{
+    gap: 20px;
+  }
+}

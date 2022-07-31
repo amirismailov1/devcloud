@@ -26,3 +26,11 @@
     column-gap: 30px;
   }
 }
+@media (max-width: 768px){
+  .experience:after{
+    display: none;
+  }
+  .experience:before{
+    display: none;
+  }
+}

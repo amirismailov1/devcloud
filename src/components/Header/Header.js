@@ -15,6 +15,9 @@ const Header = () => {
                         </Link>
                     </h1>
                     <nav className='header__nav'>
+                        <div className="header__burger">
+
+                        </div>
                         <ul className='header__list'>
                             <li className='header__list-item'><Link className='header__list-link' to={'/'}>Главная</Link></li>
                             <li className='header__list-item'>Услуги</li>

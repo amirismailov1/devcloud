@@ -64,3 +64,34 @@
     cursor: pointer;
   }
 }
+@media (max-width: 769px) {
+  .footer__row{
+    column-gap: 0;
+  }
+  .footer__nav{
+
+    flex-direction: column;
+  }
+  .footer__list{
+    display: flex;
+    column-gap: 30px;
+  }
+}
+@media (max-width: 577px){
+  .footer__arrow{
+    bottom: 120px;
+    right: 40px;
+  }
+}
+@media (max-width: 476px){
+  .footer__block{
+    align-items: center;
+
+  }
+  .footer__row{
+    flex-direction: column;
+  }
+}
+@media (max-width: 325px){
+  .footer__text{font-size: 13px}
+}
