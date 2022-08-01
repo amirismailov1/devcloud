@@ -34,3 +34,10 @@
     display: none;
   }
 }
+
+@media (max-width: 577px) {
+  .experience__row{
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

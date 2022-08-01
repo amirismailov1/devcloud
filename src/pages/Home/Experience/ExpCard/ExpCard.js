@@ -4,8 +4,10 @@ const ExpCard = ({title,img,text}) => {
     return (
         <div className='expCard'>
             <img src={img} alt="IMG" className="expCard__img"/>
-            <h3 className="expCard__title">{title}</h3>
-            <p className="expCard__text">{text}</p>
+            <div className="expCard__block">
+                <h3 className="expCard__title">{title}</h3>
+                <p className="expCard__text">{text}</p>
+            </div>
         </div>
     );
 };
